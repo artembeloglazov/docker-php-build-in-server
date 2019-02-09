@@ -12,4 +12,4 @@ For watching port type this:
 docker ps
 ```
 
-![Get the port of web-server](./port.png)
+![Get the port of web-server](https://github.com/artembeloglazov/docker-php-build-in-server/raw/master/port.png)
