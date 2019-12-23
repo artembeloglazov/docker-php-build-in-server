@@ -3,6 +3,5 @@ RUN docker-php-ext-install mysqli
 RUN mkdir -p /var/www
 COPY index.php /var/www/
 VOLUME /var/www
-COPY startup.sh /
 EXPOSE 80
-ENTRYPOINT ["sh", "/startup.sh"]
+ENTRYPOINT ["php", "-S", "0.0.0.0:80", "-t", "/var/www"]
